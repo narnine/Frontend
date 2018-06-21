@@ -1,0 +1,260 @@
+html, body{
+	margin: 0;
+    padding: 0;
+    font-family: Arial;
+}
+
+#nav{
+	background: #000;
+	width: 100%;
+}
+
+#part_nav{
+	max-width:1680px;
+	width: 980px;
+	margin: 0 auto;
+	height: 40px;
+	position: relative;
+}
+
+#menu > ul{
+	padding: 0;
+	margin: 0;
+	list-style: none;
+}
+
+#menu > ul > li:first-child {
+    padding-left: 0 ;
+}
+
+#menu > ul > li{
+	display: inline;
+	height: 40px;
+	padding: 0px 18px 0px 12px;
+	background: url(http://www.zebri.ru//bitrix/templates/zebri/images/bg_tmli.png) right  no-repeat;
+}
+
+#menu > ul > li > a {
+    color: #fff;
+    font-size: 14px;
+    text-decoration: none;
+    text-transform: uppercase;
+    line-height: 40px;
+    font-family: Arial;
+    font-weight: 600;
+    font-stretch: semi-condensed;
+}
+
+#menu > ul > li > a:hover{
+    color: #FF6619;
+}
+
+#icon{
+	position: absolute;
+    right: 0;
+    top: 11px;
+}
+
+.vk {
+    background-image: url(http://www.zebri.ru//bitrix/templates/zebri/images/vk_icon.png);
+}
+
+.facebook {
+    background-image: url(http://www.zebri.ru//bitrix/templates/zebri/images/facebook_icon.png);
+}
+
+.instagram {
+    background-image: url(http://www.zebri.ru//bitrix/templates/zebri/images/foto_icon.png);
+}
+
+.vk, .facebook, .instagram {
+    background-repeat: no-repeat;
+    background-position: center top;
+    width: 12px;
+    height: 15px;
+    display: inline-block;
+    margin-left: 18px;
+}
+
+.vk:hover,.facebook:hover, .instagram:hover{
+	background-position: center bottom;
+}
+
+#header{
+	 background: url(http://www.zebri.ru//bitrix/templates/zebri/images/bg_header.png) center top repeat-x;
+}
+
+#part_header{
+	position: relative;
+	max-width:1680px;
+	width: 980px;
+	margin: 0 auto;
+	height: 250px;
+}
+
+.logo{
+    position: absolute;
+    width: 170px;
+    height: 85px;
+    top: 35px;
+}
+
+.number{
+    position: absolute;
+    width: 250px;
+    height: 60px;
+    left: 280px;
+    top: 55px;
+}
+
+.paragraph_one{
+    font-size: 20px;
+    height: 20px;
+    line-height: 20px;
+    font-family: Arial;
+    font-weight: 500;
+}
+
+.paragraph_one > span{
+	color: #8B95A1;
+    font-size: 20px;
+}
+
+.login{
+    position: absolute;
+    width: 160px;
+    height: 50px;
+    right: 190px;
+    top: 55px; 
+    font-size: 17px;
+}
+
+.personal_room{
+	margin-top: 4px;
+    height: 14px;
+}
+
+.sign{
+	margin-top: 4px;
+}
+
+a{
+	color: #FF6619;
+    outline: none;
+}
+
+a:hover{
+	color: #F06619;
+}
+
+.sign > div{    
+	display: inline-block;	
+}
+
+.sign > div > a {
+    font-size: 11px;
+    text-decoration: none;
+    border-bottom: 1px dotted #FF6619;
+}
+
+.buy{
+    position: absolute;
+    height: 55px;
+    right: 0;
+    top: 55px;
+}
+
+.order{
+    display: block;
+    font-size: 17px;
+    text-align: right;
+    padding-right: 25px;
+    height: 22px;
+}
+
+.sum {
+    font-size: 20px;
+    position: relative;
+}
+
+.blank{
+    position: absolute;
+    top: 2px;
+    right: 7px;
+    height: 1px;
+    width: 8px;
+}
+
+.score{
+	margin:0;
+    display: block;
+    width: 20px;
+    height: 20px;
+    background: #000;
+    border-radius: 10px;
+    color: #fff;
+    font-size: 11px;
+    font-family: Arial;
+    text-align: center;
+    line-height: 20px;
+    position: absolute;
+    right: 0;
+    top: -10px;
+}
+
+.go_basket{
+    display: block;
+    font-size: 11px;
+    margin-top: -12px;
+    text-decoration: none;
+    border-bottom: 1px solid #FF6619;
+    width: 98px;
+}
+
+.all_food{
+    position: absolute;
+    bottom: 24px;
+    width: 100%;
+    height: 85px;
+    display: table;
+}
+
+.all_food > ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    display: table-row;
+}
+
+.all_food > ul > li:first-child{
+	min-width: 63px;
+}
+
+.all_food > ul > li {
+	min-width: 61px;
+    display: table-cell;
+    text-align: center;
+    vertical-align: bottom;
+    line-height: 100%;
+}
+
+.all_food > ul > li > a{
+    color: #000;
+    text-decoration: none;
+    text-transform: uppercase;
+    display: block;
+    width: 100%;
+    font-size: 10px;
+   }
+
+.all_food > ul > li > a > div{
+    background-position: center top;
+    height: 30px;
+    background-repeat: no-repeat;
+}
+
+.all_food > ul > li > a > div:hover{
+    background-position: center center;
+}
+
+
